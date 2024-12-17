@@ -10,5 +10,5 @@ export function formatDate(dateStr: string) : string {
         month: 'long',
         day: 'numeric'
     }
-    return new Intl.DateTimeFormat('es-ES', options).format(dateObj)
+    return new Intl.DateTimeFormat('en-US', options).format(dateObj)
 }

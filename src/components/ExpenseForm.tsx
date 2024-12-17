@@ -103,11 +103,11 @@ export default function ExpenseForm() {
                 <label
                     htmlFor="amount"
                     className="text-xl"
-                >Quantity:</label>
+                >Amount:</label>
                 <input
                     type="number"
                     id="amount"
-                    placeholder="Add the quantity of the expense: ex. 300"
+                    placeholder="Add the amount of the expense: ex. 300"
                     className="bg-slate-100 p-2"
                     name="amount"
                     onChange={handleChange}
